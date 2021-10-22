@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap' );
 
 header {
     width: 1920px;
@@ -14,7 +14,6 @@ header {
 
 .menu-container {
     padding-top: 46px;
-    /*padding-left: 392.4px;*/
     display: flex;
     justify-content: space-between;
     color: darkorange;
@@ -25,6 +24,7 @@ header {
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
     padding-right: 42px;
+
 }
 
 .menu a:hover {
