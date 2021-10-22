@@ -2,20 +2,19 @@
 
 header {
     width: 1920px;
-    height: 700px;
+    height: auto;
     background: #EEEFF1;
-    padding: 0 20px;
 }
 
 .fixed-container{
-    margin: 0 auto;
+    margin: 0;
     padding: 0 20px;
     max-width: 1240px;
 }
 
 .menu-container {
     padding-top: 46px;
-    padding-left: 392.4px;
+    /*padding-left: 392.4px;*/
     display: flex;
     justify-content: space-between;
     color: darkorange;
@@ -47,6 +46,11 @@ nav ul a {
     justify-content: space-between;
 }
 
+
+.logo {
+    margin-left: 372.4px;
+}
+
 .logo-img  {
     width: 115.2px;
 }
@@ -55,12 +59,100 @@ nav ul a {
 
 
 
+
+
+
+
 main {
     width: 1920px;
-    height: 700px;
-    padding: 0 20px;
-    background-color: cyan;
+    height: auto;
 }
+
+
+
+
+
+.main {
+    padding-top: 140px;
+    background: #EEEFF1;
+}
+
+
+
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.laptop-img{
+   width: 357px;
+
+}
+
+.design {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+.display {
+    margin-right: 88.1px;
+}
+
+.write-to-me {
+    margin-left: 88.1px;
+    
+}
+
+.Lorem-Ipsum-container {
+    
+    width: 540px;
+    height: 67px;
+    margin: 60px 0;
+
+}
+
+
+
+
+.Lorem-Ipsum {
+    font-family: 'Roboto', sans-serif;
+    color: #727272;
+    size: 16px;
+    line-height: 26px;
+}
+
+
+.write-to-me-button {
+    background-color: #34547A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 225px;
+    height: 65px;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .skills-container {
     display:flex;
