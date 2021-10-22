@@ -13,10 +13,19 @@ header {
     max-width: 1240px;
 }
 
-nav ul li {
+.menu-container {
+    padding-top: 46px;
+    padding-left: 392.4px;
+    display: flex;
+    justify-content: space-between;
+    color: darkorange;
+}
+
+.menu-item {
     text-transform: uppercase;
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
+    padding-right: 42px;
 }
 
 .menu a:hover {
@@ -38,8 +47,55 @@ nav ul a {
     justify-content: space-between;
 }
 
+.logo-img  {
+    width: 115.2px;
+}
+
+
+
+
+
 main {
     width: 1920px;
     height: 700px;
     padding: 0 20px;
+    background-color: cyan;
+}
+
+.skills-container {
+    display:flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.skills-progress {
+    padding: 0 20px;
+}
+
+.progress-title {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.face-img {
+    width: 555px;
+    height: 450px;
+}
+
+.skills-item {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+progress {
+    height: 4px;
+    width: 349.36px;
+}
+
+.skill {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #727272;
 }
